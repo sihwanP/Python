@@ -184,10 +184,14 @@
 
 # list(a.keys()) : 키 값을 뽑아서 리스트 형태로 변환
 
-a = {'name': '홍길동', 'phone': '010-0000-0000', 'birth': '0815'}
-print(a.items())
-list_of_items = list(a.items())
-print(list_of_items)
+# a = {'name': '홍길동', 'phone': '010-0000-0000', 'birth': '0815'}
+# print(a.items())
+# list_of_items = list(a.items())
+# print(list_of_items)
 
 # 키와 값의 형태를 새로운 리스트 형태로 변환한다.
-# --------------------------------------------------------------
+# ------------------------25.11.12--------------------------------------
+
+test = ["깃허브 연습"]
+print(test)
+
