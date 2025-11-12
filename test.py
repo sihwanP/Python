@@ -114,3 +114,39 @@
 # 논리적 에러(문법적인 오류)
 # (DEBUG)실행 에러(실행했더니 나의 의도와 다르게 나오는 결과(에러 문제는 없음.)
 #  ㄴ> 찾는 방법 : 한 라인 씩 실행 시켜서 찾는 방법 뿐임.
+
+
+
+# a~j까지 다 더한 값
+
+# a=1
+# b=2
+# c=3
+# d=4
+# e=5
+# f=6
+# g=7
+# h=8
+# i=9
+# j=10
+
+# numbers = [a,b,c,d,e,f,g,h,i,j]
+# total = 0
+#
+# for n in range(1,11):
+#   total+=n
+# print(total)
+
+print(sum(range(11)))
+
+# result  = sum(numbers)
+# print(result)
+
+# total = 0
+# for n in numbers:
+#   total+= n
+#
+# print(total)
+
+
+
